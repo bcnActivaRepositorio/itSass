@@ -1,32 +1,41 @@
+@mixin flexRowCenter {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+@mixin flexColumnCenter {
+    display: flex;
+    flex-flow: column nowrap;
+  }
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+#main-wrapper {
+    @include flexColumnCenter();
+    justify-content: center;
+    width: 80vw;
+    margin: 0 auto;
+}
 main {
     position: relative;
     min-height: 100vh;
-    margin-top: 10rem;
-}
-/* #main-wrapper{
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-   
-  }
-  main {
-    margin: 20px 0 0;
-    padding-bottom: 20px;
-    .gallery{
-        margin: 1rem auto;
-    }
-    article h1,p {
-        margin: 2rem auto;
-        width: 80vw;
+    margin-top: 7rem;
+    padding-bottom: 5rem;
+    @include flexColumnCenter();
+
+    article  {
+      // 
+       .gallery {
+        @include flexRowCenter();
+        justify-content: space-evenly;
+       }
+       h1, p {
+           margin: 3rem;
+       }
     }
 }
-main img {
-    padding: 1.5rem;
-} */
+img {
+    max-width: 80vw;
+    height: auto;
+}

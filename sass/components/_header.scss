@@ -21,9 +21,8 @@
     @mixin flexRowCenter {
       display: flex;
       flex-flow: row nowrap;
-      justify-content: center;
-      align-content: center;
     }
+    // @use "main" as c;
     header{
       height: 4rem;
       background-image: linear-gradient(to bottom, #0a5c71, #063642);
@@ -36,8 +35,7 @@
       width: 50vw;
      
       ul {
-        display: flex;
-        flex-flow: row nowrap;
+       @include flexRowCenter();
         justify-content: space-around;
         padding: 1rem 0 0 0;
         li {

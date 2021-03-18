@@ -2,7 +2,8 @@
 body, ul, li {
   margin: 0;
   padding: 0;
-  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 /*header {
     height: 3rem;
@@ -20,7 +21,7 @@ body, ul, li {
         a {
           text-decoration: none;
           color: #FFFFFF;
-         
+
         }
       }
     } */
@@ -29,79 +30,89 @@ header {
   background-image: linear-gradient(to bottom, #0a5c71, #063642);
   position: relative;
   top: 0;
-  width: 100%; }
+  width: 100%;
+}
 
 nav {
   position: fixed;
-  width: 50vw; }
-  nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    padding: 1rem 0 0 0; }
-    nav ul li {
-      list-style-type: none;
-      margin: 0 1rem;
-      vertical-align: baseline;
-      padding-bottom: 1rem; }
-      nav ul li a {
-        text-decoration: none;
-        color: #FFFFFF; }
+  width: 50vw;
+}
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 1rem 0 0 0;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0 1rem;
+  vertical-align: baseline;
+  padding-bottom: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 
 .mySticky {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10; }
+  z-index: 10;
+}
 
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
+#main-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 80vw;
+  margin: 0 auto;
+}
 
 main {
   position: relative;
   min-height: 100vh;
-  margin-top: 10rem; }
-
-/* #main-wrapper{
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-   
-  }
-  main {
-    margin: 20px 0 0;
-    padding-bottom: 20px;
-    .gallery{
-        margin: 1rem auto;
-    }
-    article h1,p {
-        margin: 2rem auto;
-        width: 80vw;
-    }
+  margin-top: 7rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-flow: column nowrap;
 }
-main img {
-    padding: 1.5rem;
-} */
-/* footer {
-    background: #333333;
-    padding: 20px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    li {
-      display: inline-block;
-      padding: 0 10px;
-      a img {
-        width: 30px;
-        border-radius: 50%;
-        overflow: hidden;
-      }
-    }
-  } */
+main article .gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+main article h1, main article p {
+  margin: 3rem;
+}
+
+img {
+  max-width: 80vw;
+  height: auto;
+}
+
+footer {
+  background: #333333;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+footer li {
+  display: inline-block;
+  padding: 0 10px;
+}
+footer li a img {
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 /*# sourceMappingURL=styles.css.map */
