@@ -1,0 +1,23 @@
+{
+  "name": "sassini",
+  "version": "1.0.0",
+  "description": "sass exercise @itacademy bcn",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch scss -o css",
+    "sass": "node-sass -watch sass -o css"
+  },
+  "keywords": [
+    "sass",
+    "@itacademy",
+    "bcn",
+    "it",
+    "academy"
+  ],
+  "author": "Robert Garcia",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
