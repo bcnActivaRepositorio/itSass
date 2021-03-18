@@ -7,6 +7,11 @@
   main {
     margin: 20px 0 0;
     padding-bottom: 20px;
+    max-width: 100vw;
+    article h1,p {
+        margin: 2rem auto;
+        width: 80vw;
+    }
   }
 main img {
     padding: 1.5rem;
