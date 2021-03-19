@@ -18,13 +18,13 @@ body{
     margin: 0 auto;
 }
 main {
-    position: relative;
+    //position: relative;
     min-height: 100vh;
     margin-top: 7rem;
     padding-bottom: 5rem;
     @include flexColumnCenter();
 
-    article  {
+    .content  {
       // 
        .gallery {
         @include flexRowCenter();
@@ -36,6 +36,6 @@ main {
     }
 }
 img {
-    max-width: 80vw;
+    max-width: 40vw;
     height: auto;
 }

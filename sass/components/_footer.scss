@@ -4,13 +4,21 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    
     li {
       display: inline-block;
-      padding: 0 10px;
+      margin: 0.5rem 0;
       a img {
         width: 30px;
         border-radius: 50%;
         overflow: hidden;
+      }
       }
     }
   }
