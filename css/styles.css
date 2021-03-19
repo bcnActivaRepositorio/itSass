@@ -2,7 +2,8 @@
 body, ul {
   margin: 0;
   padding: 0;
-  font: 400 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font: 400 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 header {
   height: 4rem;
@@ -12,62 +13,74 @@ header {
   width: 80vw;
   z-index: 100;
   border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem; }
+  border-bottom-left-radius: 0.25rem;
+}
 
 nav {
   position: relative;
-  width: 50vw; }
-  nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    padding: 1rem 0 0 0; }
-    nav ul li {
-      list-style-type: none;
-      margin: 0 1rem;
-      vertical-align: baseline;
-      padding-bottom: 1rem; }
-      nav ul li a {
-        text-decoration: none;
-        color: #FFFFFF; }
+  width: 50vw;
+}
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 1rem 0 0 0;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0 1rem;
+  vertical-align: baseline;
+  padding-bottom: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 
 .mySticky {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10; }
+  z-index: 10;
+}
 
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 #main-wrapper {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   width: 80vw;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 main {
   min-height: 100vh;
   margin-top: 7rem;
   padding-bottom: 5rem;
   display: flex;
-  flex-flow: column nowrap; }
-  main .content .gallery {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly; }
-  main .content h1, main .content p {
-    margin: 3rem; }
+  flex-flow: column nowrap;
+}
+main .content .gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+main h1, main p {
+  margin: 3rem;
+}
 
 img {
   max-width: 40vw;
   height: auto;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 footer {
   background: #333333;
@@ -76,34 +89,42 @@ footer {
   bottom: 0;
   width: 100%;
   border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem; }
-  footer ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
-    footer ul li {
-      display: inline-block;
-      margin: 0.5rem 0; }
-      footer ul li a img {
-        width: 30px;
-        border-radius: 50%;
-        overflow: hidden; }
+  border-top-right-radius: 0.25rem;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0.5rem 0;
+}
+footer ul li a img {
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 section ul {
-  padding-left: 3rem; }
-  section ul li {
-    margin: 1rem 0; }
+  padding-left: 3rem;
+}
+section ul li {
+  margin: 1rem 0;
+}
 
 #rooftopcafe h2,
 #smoothiebar h2,
 #coffeebar h2 {
-  text-align: center; }
+  text-align: center;
+}
 #rooftopcafe img,
 #smoothiebar img,
 #coffeebar img {
   display: block;
   margin: 0 auto;
-  padding: 1.5rem 0 0 0; }
+  padding: 1.5rem 0 0 0;
+}
 
 .contactUs {
   background-color: #5078b4;
@@ -114,58 +135,67 @@ section ul {
   -webkit-border-radius: 0.25rem;
   -moz-border-radius: 0.25rem;
   -ms-border-radius: 0.25rem;
-  -o-border-radius: 0.25rem; }
+  -o-border-radius: 0.25rem;
+}
 
 form {
   width: 40vw;
   margin: 0.5rem 0 0 2rem;
   font-size: 1.1rem;
-  font-weight: bold; }
-  form .form-group {
-    margin: 1rem 0 1rem 1rem;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start; }
-    form .form-group input {
-      height: 2rem;
-      background-color: #6a9ce7;
-      margin-top: 1rem;
-      border-radius: 0.35rem;
-      -webkit-border-radius: 0.35rem;
-      -moz-border-radius: 0.35rem;
-      -ms-border-radius: 0.35rem;
-      -o-border-radius: 0.35rem; }
-    form .form-group select {
-      height: 3rem;
-      border-radius: 0.35rem;
-      -webkit-border-radius: 0.35rem;
-      -moz-border-radius: 0.35rem;
-      -ms-border-radius: 0.35rem;
-      -o-border-radius: 0.35rem; }
+  font-weight: bold;
+}
+form .form-group {
+  margin: 1rem 0 1rem 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+form .form-group input {
+  height: 2rem;
+  background-color: #6a9ce7;
+  margin-top: 1rem;
+  border-radius: 0.35rem;
+  -webkit-border-radius: 0.35rem;
+  -moz-border-radius: 0.35rem;
+  -ms-border-radius: 0.35rem;
+  -o-border-radius: 0.35rem;
+}
+form .form-group select {
+  height: 3rem;
+  border-radius: 0.35rem;
+  -webkit-border-radius: 0.35rem;
+  -moz-border-radius: 0.35rem;
+  -ms-border-radius: 0.35rem;
+  -o-border-radius: 0.35rem;
+}
 
 #myContact {
-  width: 50%; }
+  width: 50%;
+}
 
-.content h1 {
-  text-align: center; }
-.content img {
+section.content h1 {
+  text-align: center;
+}
+section.content img {
   max-width: 30vw;
   height: auto;
   filter: grayscale(1);
-  -webkit-filter: grayscale(1); }
-  .content img:hover {
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-    cursor: pointer;
-    transition: all .55s ease-in-out;
-    transform: scale(1.75);
-    -webkit-transform: scale(1.75);
-    -moz-transform: scale(1.75);
-    -ms-transform: scale(1.75);
-    -o-transform: scale(1.75);
-    -webkit-transition: all .55s ease-in-out;
-    -moz-transition: all .55s ease-in-out;
-    -ms-transition: all .55s ease-in-out;
-    -o-transition: all .55s ease-in-out; }
+  -webkit-filter: grayscale(1);
+}
+section.content img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  cursor: pointer;
+  transition: all 0.55s ease-in-out;
+  transform: scale(1.75);
+  -webkit-transform: scale(1.75);
+  -moz-transform: scale(1.75);
+  -ms-transform: scale(1.75);
+  -o-transform: scale(1.75);
+  -webkit-transition: all 0.55s ease-in-out;
+  -moz-transition: all 0.55s ease-in-out;
+  -ms-transition: all 0.55s ease-in-out;
+  -o-transition: all 0.55s ease-in-out;
+}
 
 /*# sourceMappingURL=styles.css.map */

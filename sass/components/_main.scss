@@ -29,12 +29,13 @@ main {
        .gallery {
         @include flexRowCenter();
         justify-content: space-evenly;
+}
        }
        h1, p {
            margin: 3rem;
        }
     }
-}
+
 img {
     max-width: 40vw;
     height: auto;
