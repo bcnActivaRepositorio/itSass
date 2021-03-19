@@ -64,8 +64,26 @@ main {
     margin: 3rem; }
 
 img {
-  max-width: 40vw;
-  height: auto; }
+  max-width: 30vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1); }
+  img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    cursor: pointer;
+    transition: all .55s ease-in-out;
+    transform: scale(1.75);
+    -webkit-transform: scale(1.75);
+    -moz-transform: scale(1.75);
+    -ms-transform: scale(1.75);
+    -o-transform: scale(1.75);
+    -webkit-transition: all .55s ease-in-out;
+    -moz-transition: all .55s ease-in-out;
+    -ms-transition: all .55s ease-in-out;
+    -o-transition: all .55s ease-in-out; }
 
 footer {
   background: #333333;
