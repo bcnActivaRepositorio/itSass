@@ -1,0 +1,28 @@
+.content {
+    h1{
+        text-align: center;
+    }
+
+img {
+    max-width: 30vw;
+    height: auto;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    &:hover {
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        cursor: pointer;
+        //max-width: 80vw;
+        transition: all .55s ease-in-out;
+        transform: scale(1.75);
+        -webkit-transform: scale(1.75);
+        -moz-transform: scale(1.75);
+        -ms-transform: scale(1.75);
+        -o-transform: scale(1.75);
+        -webkit-transition: all .55s ease-in-out;
+        -moz-transition: all .55s ease-in-out;
+        -ms-transition: all .55s ease-in-out;
+        -o-transition: all .55s ease-in-out;
+}
+}
+}
